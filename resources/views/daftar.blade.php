@@ -8,12 +8,12 @@
 </head>
 <body>
 <nav class="bg-gray-700 border-gray-200 dark:bg-gray-900">
-<div>
-    <h1 class="mt-3 text-amber-300 text-center text-4xl font-bold">DAFTAR</h1>
-    </div>
-    <div>
-        <img class="mx-4"  src="logo.png" alt="logo" width="150">
-    </div>
+<div class="absolute inset-0 ">
+    <h1 class="mt-5 text-amber-300 text-center text-4xl font-bold">Daftar</h1>
+</div>
+<div class="relative h-14 w-30 ...">
+    <img class="absolute left-5 top-5 h-16 w-160"  src="logo.png" alt="logo" width="150">
+</div>
            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
      </div>
             <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
