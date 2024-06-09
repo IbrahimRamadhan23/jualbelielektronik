@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\LoginController;
+use App\http\Controllers\HomeController;
+use App\http\Controllers\KeranjangController;
+use App\http\Controllers\CheckoutController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +20,10 @@ use App\http\Controllers\LoginController;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('checkout');
 });
 
 Route::get('/login', [LoginController::class, 'index']);
+Route::get('/home', [HomeController::class, 'index']);
+Route::get('/keranjang', [KeranjangController::class, 'index']);
+Route::get('/checkout', [CheckoutController::class, 'index']);

@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Katalog</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <nav class="py-6  flex bg-gray-700 border-gray-200 dark:bg-gray-900 ">
-         <div class="pl-8 pb-1 absolute">
+        <div class="pl-8 pb-1 absolute">
             <img class="ps-15 relative"  src="logo.png" alt="logo" width="170">
         </div> 
-        <div class="absolute top-5 right-7 h-50  w-50  ">
+        <div class="absolute top-5 right-7   h-50  w-50  ">
             <button type="button" class="absolute right-7 h-12 w-12 text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="true" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
-                    <span class="sr-only">Open user menu</span>
-                    <img class="w-12 h-12 rounded-full" src="user.png" alt="user">
+                <span class="sr-only">Open user menu</span>
+                <img class="w-12 h-12 rounded-full" src="user.png" alt="user">
             </button>
             <button type="button" class="absolute right-20 h-12 w-12 text-sm  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                 <span class="sr-only">Open user menu</span>
-                    <img class="w-12 h-12 rounded-full" src="cart.png" alt="user">
+                <img class="w-12 h-12 rounded-full" src="cart.png" alt="user">
             </button>
        </div>
         <form class="flex items-center w-full max-w-lg mx-auto">   
@@ -39,29 +39,129 @@
         </div>
     </nav>
 
-
-    <div class="flex justify-center space-x-4  ...">
-        <button type="button" class="text-gray-900 bg-white  focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 me-3 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-4 ">
-            <svg class="w-3 h-3" aria-hidden="true"  xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18" class="py-2">
-                <img src="icon1.png"  alt="" class="w-7 h-7">
-            </svg>
-        </button>
-        <button type="button" class="text-gray-900 bg-white focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3 me-3 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-4 ">
-            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
-                <img src="icon2.png" alt="" class="w-7 h-7">
-            </svg>
-        </button>  
-        <button type="button" class="text-gray-900 bg-white  focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm px-3  me-3 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 mt-4 ">
-            <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 18 18">
-                <img src="icon3.png" alt=""class="w-10 h-10">
-            </svg>
-        </button>
-    </div>
-    <div class="px-8 py-8">
-        <img src="banner2.png" alt="" class="mx-auto w-full h-full">
-    </div>
     
-    <div class="mx-5 grid grid-cols-3 place-items-center bg-zinc-300 rounded-lg ">   
+    <div class="mx-5 grid grid-cols-4 place-items-center bg-zinc-300 rounded-lg "> 
+      
+        <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+                <a class= "px-8 py-8" href="#">
+                    <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
+                </a>
+                <div class="p- space-y-4 md:space-y- sm:p-6">
+                    <a href="#">
+                        <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                    </a>
+                    <div class="flex items-center mt-2. mb-">
+                        <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                            
+                        </div>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
+                        <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+                <a class= "px-8 py-8" href="#">
+                    <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
+                </a>
+                <div class="p- space-y-4 md:space-y- sm:p-6">
+                    <a href="#">
+                        <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                    </a>
+                    <div class="flex items-center mt-2. mb-">
+                        <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                            
+                        </div>
+                        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
+                        <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+            <a class= "px-8 py-8" href="#">
+                <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
+            </a>
+            <div class="p- space-y-4 md:space-y- sm:p-6">
+                <a href="#">
+                    <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                </a>
+                <div class="flex items-center mt-2. mb-">
+                    <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                        
+                    </div>
+                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+            <a class= "px-8 py-8" href="#">
+                <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
+            </a>
+            <div class="p- space-y-4 md:space-y- sm:p-6">
+                <a href="#">
+                    <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                </a>
+                <div class="flex items-center mt-2. mb-">
+                    <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                        
+                    </div>
+                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+            <a class= "px-8 py-8" href="#">
+                <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
+            </a>
+            <div class="p- space-y-4 md:space-y- sm:p-6">
+                <a href="#">
+                    <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                </a>
+                <div class="flex items-center mt-2. mb-">
+                    <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                        
+                    </div>
+                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+            <a class= "px-8 py-8" href="#">
+                <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
+            </a>
+            <div class="p- space-y-4 md:space-y- sm:p-6">
+                <a href="#">
+                    <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+                </a>
+                <div class="flex items-center mt-2. mb-">
+                    <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                        
+                    </div>
+                    <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
+                </div>
+                <div class="flex items-center justify-between">
+                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
+                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                </div>
+            </div>
+        </div>
         <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
             <a class= "px-8 py-8" href="#">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
@@ -185,28 +285,28 @@
 
     </div>
 </body>
-
-
-<footer class="mt-10">
     
-<div class="flex flex-row bg-slate-500 ">
-    <div class="pl-5 sm:flex sm:items-center w-2/6 ">
-    <img src="logo.png" class="h-10 my-5 mt-8" alt="Logo" />
-    <p class=" text-white text-sm ml-5">This website makes it easy for you to get the electronics you need, guaranteed to be original, and get lots of discounts</p>
-    </div>
 
-    <div class="flex space-x-8 ">
-       <div class="flex ml-96">
-        <img src="phone.png"class="h-5 my-5 mt-8 ml-80 " alt="">
-        <p class="mt-8 text-white text-sm ml-5">+6282285473246</p>
+<footer class="mt-10">  
+    <div class="flex flex-row bg-slate-500 ">
+        <div class="pl-5 sm:flex sm:items-center w-2/6 ">
+            <img src="logo.png" class="h-10 my-5 mt-8" alt="Logo" />
+            <p class=" text-white text-sm ml-5">This website makes it easy for you to get the electronics you need, guaranteed to be original, and get lots of discounts
+            </p>
         </div>
-        <div class="flex flex-row">
-        <img src="location.png"class="h-5 my-5 mt-8" alt="">
-        <p class="mt-8 text-white text-sm ml-5">Jl. Ahmad Yani Batam Kota. Kota Batam. kepulauan Riau. Indonesia</p>
-        </div>
-        
+
+        <div class="flex ml-80 space-x-10">
+            <div class="flex ml-80">
+                <img src="phone.png"class="h-5 my-5 mt-8 " alt="">
+                <p class="mt-8 text-white text-sm ml-3">+628908892344</p>
+                </div>
+
+                <div class="flex">
+                <img src="location.png"class="h-5 my-5 mt-8" alt="">
+                <p class="mt-8 text-white text-sm ml-3">Jl. Ahmad Yani Batam Kota. Kota Batam. kepulauan Riau. Indonesia</p>
+             </div>
+         </div>
     </div>
-</div>
 </footer>
 
-
+</html>
