@@ -5,6 +5,16 @@ use App\http\Controllers\LoginController;
 use App\http\Controllers\HomeController;
 use App\http\Controllers\KeranjangController;
 use App\http\Controllers\CheckoutController;
+use App\http\Controllers\TambahprodukController;
+use App\http\Controllers\KatalogController;
+use App\http\Controllers\OrderanController;
+use App\http\Controllers\DetailprodukController;
+use App\http\Controllers\UbahprodukController;
+use App\http\Controllers\ProfileController;
+
+
+
+
 
 
 
@@ -20,10 +30,16 @@ use App\http\Controllers\CheckoutController;
 */
 
 Route::get('/', function () {
-    return view('checkout');
+    return view('profile');
 });
 
 Route::get('/login', [LoginController::class, 'index']);
 Route::get('/home', [HomeController::class, 'index']);
 Route::get('/keranjang', [KeranjangController::class, 'index']);
 Route::get('/checkout', [CheckoutController::class, 'index']);
+Route::get('/tambahproduk', [TambahprodukController::class, 'index']);
+Route::get('/katalog', [KatalogController::class, 'index']);
+Route::get('/orderan', [OrderanController::class, 'index']);
+Route::get('/detailproduk', [DetailprodukController::class, 'index']);
+Route::get('/ubahproduk', [UbahprodukController::class, 'index']);
+Route::get('/profile', [ProfileController::class, 'index']);
