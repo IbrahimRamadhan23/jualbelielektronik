@@ -87,7 +87,9 @@
                 <p class="text-gray-600">Tax (10%): Rp. 60,000</p>
                 <p class="text-lg font-bold">Total: Rp. 660,000</p>
                 <div class="relative">
+                    <a href="/checkout">
                     <button class="absolute bottom-0 right-0 mr-10 mb-7 bg-orange-500 flex hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">Checkout</button>
+                    </a>
                 </div>
         </div>
     </div>

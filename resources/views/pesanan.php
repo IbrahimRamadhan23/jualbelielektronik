@@ -33,7 +33,7 @@
     <!-- Main Content -->
     <main class="p-6">
         <!-- Order Items -->
-        <a href="">
+        <a href="/rincianpesanan">
             <section class="bg-white p-6 my-10 rounded shadow-md">
                 <div>
                 <p class="text-gray-700 pb-4"><strong>Tanggal Pesanan:</strong> 27 Juni 2024</p>
@@ -83,7 +83,7 @@
                 </div>
             </section>
         </a>
-        <a href="">
+        <a href="/rincianpesanan">
             <section class="bg-white  my-10 p-6 rounded shadow-md">
                 <div>
                 <p class="text-gray-700 pb-4"><strong>Tanggal Pesanan:</strong> 27 Juni 2024</p>

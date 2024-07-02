@@ -89,12 +89,14 @@
 
         <div class="container mx-auto p-4 pt-6 md:p-6 ">
             <div class="bg-gray-100 pl-11 rounded p-4 mt-4">
-                    <h3 class="text-lg font-bold">Cart Summary</h3>
-                    <p class="text-gray-600">Subtotal: Rp. 600,000</p>
-                    <p class="text-gray-600">Tax (10%): Rp. 60,000</p>
-                    <p class="text-lg font-bold">Total: Rp. 660,000</p>
-                    <div class="relative">
-                    <button class="absolute bottom-0 right-0 mr-10 mb-7 bg-orange-500 flex hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">BUAT PESANAN</button>
+                <h3 class="text-lg font-bold">Cart Summary</h3>
+                <p class="text-gray-600">Subtotal: Rp. 600,000</p>
+                <p class="text-gray-600">Tax (10%): Rp. 60,000</p>
+                <p class="text-lg font-bold">Total: Rp. 660,000</p>
+                <div class="relative">
+                <a href="/pesanan">
+                  <button class="absolute bottom-0 right-0 mr-10 mb-7 bg-orange-500 flex hover:bg-orange-700 text-white font-bold py-2 px-4 rounded">BUAT PESANAN</button>
+                </a>
             </div>
         </div>
     </div>

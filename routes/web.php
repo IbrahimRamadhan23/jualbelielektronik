@@ -13,6 +13,9 @@ use App\http\Controllers\UbahprodukController;
 use App\http\Controllers\ProfileController;
 use App\http\Controllers\PesananController;
 use App\http\Controllers\DataprodukController;
+use App\http\Controllers\DaftarController;
+use App\http\Controllers\RincianpesananController;
+
 
 
 
@@ -33,7 +36,7 @@ use App\http\Controllers\DataprodukController;
 */
 
 Route::get('/', function () {
-    return view('dataproduk');
+    return view('home');
 });
 
 Route::get('/login', [LoginController::class, 'index']);
@@ -48,3 +51,5 @@ Route::get('/ubahproduk', [UbahprodukController::class, 'index']);
 Route::get('/profile', [ProfileController::class, 'index']);
 Route::get('/pesanan', [PesananController::class, 'index']);
 Route::get('/dataproduk', [DataprodukController::class, 'index']);
+Route::get('/daftar', [DaftarController::class, 'index']);
+Route::get('/rincianpesanan', [RincianpesananController::class, 'index']);

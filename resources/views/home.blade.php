@@ -12,14 +12,17 @@
             <img class="ps-15 relative"  src="logo.png" alt="logo" width="170">
         </div> 
         <div class="absolute top-5 right-7 h-50  w-50  ">
-            <button type="button" class="absolute right-7 h-12 w-12 text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="true" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+            <a href="/login">
+                <button type="button" class="absolute right-7 h-12 w-12 text-sm bg-yellow-300 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"  id="user-menu-button" aria-expanded="true" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                        <p class="font-bold">LOGIN</p>
+                </button>
+            </a>
+            <a href="/keranjang">
+                <button type="button" class="absolute right-20 h-12 w-12 text-sm  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                     <span class="sr-only">Open user menu</span>
-                    <img class="w-12 h-12 rounded-full" src="user.png" alt="user">
-            </button>
-            <button type="button" class="absolute right-20 h-12 w-12 text-sm  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
-                <span class="sr-only">Open user menu</span>
-                    <img class="w-12 h-12 rounded-full" src="cart.png" alt="user">
-            </button>
+                        <img class="w-12 h-12 rounded-full" src="cart.png" alt="user">
+                </button>
+            </a>
        </div>
         <form class="flex items-center w-full max-w-lg mx-auto">   
             <div class="relative w-full">
@@ -62,12 +65,12 @@
     </div>
     
     <div class="mx-5 grid grid-cols-3 place-items-center bg-zinc-300 rounded-lg ">   
-        <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
-            <a class= "px-8 py-8" href="#">
+    <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
+            <a class= "px-8 py-8" href="/detailproduk">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
             </a>
             <div class="p- space-y-4 md:space-y- sm:p-6">
-                <a href="#">
+                <a href="/detailproduk">
                     <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                 </a>
                 <div class="flex items-center mt-2. mb-">
@@ -77,17 +80,19 @@
                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <span class="text-2xl pr-10 font-bold text-gray-900 dark:text-white">Rp.500.000</span>
+                    <a href="/detailproduk" class="text-black bg-yellow-300 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-sm px- py-10. font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <img src="cart.png " class="w-10 h-10 "alt="">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
-            <a class= "px-8 py-8" href="#">
+            <a class= "px-8 py-8" href="/detailproduk">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
             </a>
             <div class="p- space-y-4 md:space-y- sm:p-6">
-                <a href="#">
+                <a href="/detailproduk">
                     <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                 </a>
                 <div class="flex items-center mt-2. mb-">
@@ -97,17 +102,19 @@
                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <span class="text-2xl pr-10 font-bold text-gray-900 dark:text-white">Rp.500.000</span>
+                    <a href="/detailproduk" class="text-black bg-yellow-300 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-sm px- py-10. font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <img src="cart.png " class="w-10 h-10 "alt="">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
-            <a class= "px-8 py-8" href="#">
+            <a class= "px-8 py-8" href="/detailproduk">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
             </a>
             <div class="p- space-y-4 md:space-y- sm:p-6">
-                <a href="#">
+                <a href="/detailproduk">
                     <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                 </a>
                 <div class="flex items-center mt-2. mb-">
@@ -117,17 +124,19 @@
                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <span class="text-2xl pr-10 font-bold text-gray-900 dark:text-white">Rp.500.000</span>
+                    <a href="/detailproduk" class="text-black bg-yellow-300 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-sm px- py-10. font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <img src="cart.png " class="w-10 h-10 "alt="">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
-            <a class= "px-8 py-8" href="#">
+            <a class= "px-8 py-8" href="/detailproduk">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
             </a>
             <div class="p- space-y-4 md:space-y- sm:p-6">
-                <a href="#">
+                <a href="/detailproduk">
                     <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                 </a>
                 <div class="flex items-center mt-2. mb-">
@@ -137,17 +146,19 @@
                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <span class="text-2xl pr-10 font-bold text-gray-900 dark:text-white">Rp.500.000</span>
+                    <a href="/detailproduk" class="text-black bg-yellow-300 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-sm px- py-10. font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <img src="cart.png " class="w-10 h-10 "alt="">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
-            <a class= "px-8 py-8" href="#">
+            <a class= "px-8 py-8" href="/detailproduk">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
             </a>
             <div class="p- space-y-4 md:space-y- sm:p-6">
-                <a href="#">
+                <a href="/detailproduk">
                     <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                 </a>
                 <div class="flex items-center mt-2. mb-">
@@ -157,17 +168,19 @@
                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <span class="text-2xl pr-10 font-bold text-gray-900 dark:text-white">Rp.500.000</span>
+                    <a href="/detailproduk" class="text-black bg-yellow-300 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-sm px- py-10. font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <img src="cart.png " class="w-10 h-10 "alt="">
+                    </a>
                 </div>
             </div>
         </div>
         <div class="mx-4 px-8 mt-2 py-8   max-w-sm items-center justify-center bg-white border border-gray-200 rounded-lg ">
-            <a class= "px-8 py-8" href="#">
+            <a class= "px-8 py-8" href="/detailproduk">
                 <img class=" w-40 ml-10 items-center justify-censter" src="keyboard.png" alt="product image" />
             </a>
             <div class="p- space-y-4 md:space-y- sm:p-6">
-                <a href="#">
+                <a href="/detailproduk">
                     <h5 class="text-md font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
                 </a>
                 <div class="flex items-center mt-2. mb-">
@@ -177,8 +190,10 @@
                     <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2. py-0. rounded dark:bg-blue-200 dark:text-blue-800 ms-3">.0</span>
                 </div>
                 <div class="flex items-center justify-between">
-                    <span class="text-2xl font-bold text-gray-900 dark:text-white">$599</span>
-                    <a href="#" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px- py-2. text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Add to cart</a>
+                    <span class="text-2xl pr-10 font-bold text-gray-900 dark:text-white">Rp.500.000</span>
+                    <a href="/detailproduk" class="text-black bg-yellow-300 hover:bg-yellow-300 focus:ring-4 focus:outline-none focus:ring-blue-300 font-small rounded-lg text-sm px- py-10. font-bold text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <img src="cart.png " class="w-10 h-10 "alt="">
+                    </a>
                 </div>
             </div>
         </div>

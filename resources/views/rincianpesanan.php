@@ -11,7 +11,9 @@
     <nav class="bg-gray-700 border-gray-200 dark:bg-gray-900">
         <div class="flex flex-row">
             <div class="pl-5 sm:flex sm:items-center w-2/6 ">
-              <img src="logo.png" class="h-12 my-5 mt-8" alt="Logo" />
+                <a href="/home">
+                 <img src="logo.png" class="h-12 my-5 mt-8" alt="Logo" />
+                </a>
               <p class=" text-amber-300 text-3xl ml-5">PESANAN</p>
             <div class="absolute top-5 right-7 h-50  w-50  ">
             <button type="button" class="absolute right-7 h-12 w-12 text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300     dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="true" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">

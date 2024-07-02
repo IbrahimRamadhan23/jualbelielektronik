@@ -7,18 +7,22 @@
     <script src="https://cdn.tailwindcss.com"></script>  
 </head>
 <nav class="py-6  flex bg-gray-700 border-gray-200 dark:bg-gray-900 ">
-        <div class="pl-8 pb-1 absolute">
-            <img class="ps-15 relative"  src="logo.png" alt="logo" width="170">
-        </div> 
+         <a href="/home">
+            <div class="pl-8 pb-1 absolute">
+                <img class="ps-15 relative"  src="logo.png" alt="logo" width="170">
+            </div> 
+        </a>
         <div class="absolute top-5 right-7   h-50  w-50  ">
             <button type="button" class="absolute right-7 h-12 w-12 text-sm bg-gray-800 rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="true" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
                 <span class="sr-only">Open user menu</span>
                 <img class="w-12 h-12 rounded-full" src="user.png" alt="user">
             </button>
-            <button type="button" class="absolute right-20 h-12 w-12 text-sm  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
-                <span class="sr-only">Open user menu</span>
-                <img class="w-12 h-12 rounded-full" src="cart.png" alt="user">
-            </button>
+            <a href="/keranjang">
+                <button type="button" class="absolute right-20 h-12 w-12 text-sm  rounded-full md:me-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
+                    <span class="sr-only">Open user menu</span>
+                    <img class="w-12 h-12 rounded-full" src="cart.png" alt="user">
+                </button>
+            </a>
        </div>
         <form class="flex items-center w-full max-w-lg mx-auto">   
             <div class="relative w-full">
@@ -55,12 +59,16 @@
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="quantity">Jumlah:</label>
                         <input id="quantity" type="number" min="1" value="1" class="w-16 p-2 border border-gray-300 rounded-md">
                     </div>
-                    <button class="mt-14 w-48 bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-4 rounded-full">
-                         Keranjang
-                    </button>
-                    <button class="mt-14 w-48 bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-4 rounded-full">
-                        Beli Sekarang   
-                    </button>
+                    <a href="/keranjang">
+                        <button class="mt-14 w-48 bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-4 rounded-full">
+                            Keranjang
+                        </button>
+                    </a>
+                    <a href="/checkout">
+                        <button class="mt-14 w-48 bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-4 rounded-full">
+                            Beli Sekarang   
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
